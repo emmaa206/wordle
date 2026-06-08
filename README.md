@@ -13,8 +13,7 @@ Pentru a putea compila și juca acest joc, sistemul tău (Linux / Ubuntu / Virtu
 * Compiler-ul `gcc`
 * Utilitarul `make`
 * Biblioteca `ncurses`
-
-* `ncurses` se poate instala rulând comanda:
+   `ncurses` se poate instala rulând comanda:
    ```bash
    sudo apt-get install libncurses5-dev libncursesw5-dev
 
