@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
-TARGET = wordle_cti
+TARGET = wordle
 SRCS = main.c logica.c ui.c
 OBJS = $(SRCS:.c=.o)
 
