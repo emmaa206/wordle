@@ -12,8 +12,7 @@ Acest proiect reprezintă o implementare a popularului joc de cuvinte **Wordle**
 Pentru a putea compila și juca acest joc, sistemul tău (Linux / Ubuntu / VirtualBox) trebuie să aibă instalate următoarele pachete:
 * Compiler-ul `gcc`
 * Utilitarul `make`
-* Biblioteca `ncurses`
-   `ncurses` se poate instala rulând comanda:
+* Biblioteca `ncurses`, ce se poate instala rulând comanda:
    ```bash
    sudo apt-get install libncurses5-dev libncursesw5-dev
 
