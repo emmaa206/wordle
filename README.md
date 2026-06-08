@@ -14,7 +14,7 @@ Pentru a putea compila și juca acest joc, sistemul tău (Linux / Ubuntu / Virtu
 * Utilitarul `make`
 * Biblioteca `ncurses`
 
-Dacă nu ai instalat `ncurses`, o poți face rulând comanda:
+`ncurses` se poate instala rulând comanda:
 `sudo apt-get install libncurses5-dev libncursesw5-dev`
 
 ## Compilare și Rulare
