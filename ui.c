@@ -32,7 +32,7 @@ void afiseaza_grila(const StareJoc *stare) {
                 printw(" _ ");
                 attroff(COLOR_PAIR(4));
             }
-            printw(" "); // Un spațiu constant între coloane
+            printw(" ");
         }
     }
 }
@@ -45,9 +45,8 @@ void afiseaza_tastatura(const StareJoc *stare) {
     };
 
     int start_y = 18;
-    int start_x = 22; // Aceeași ancoră ca la grilă!
+    int start_x = 22;
 
-    // Rândul 1 e fix la start_x, Rândul 2 e mutat 1 spațiu, Rândul 3 e mutat 3 spații
     int offset_x[] = {start_x, start_x + 1, start_x + 3};
 
     for (int r = 0; r < 3; r++) {
@@ -84,7 +83,7 @@ void citeste_incercare(StareJoc *stare) {
     move(22, 2); clrtoeol();
 
     if (strlen(stare->mesaj_eroare) > 0) {
-        attron(COLOR_PAIR(5)); // Culoare roșie pentru erori [cite: 23]
+        attron(COLOR_PAIR(5)); // Culoare roșie pentru erori
         mvprintw(21, 2, "%s", stare->mesaj_eroare);
         attroff(COLOR_PAIR(5));
     }
@@ -96,7 +95,7 @@ void citeste_incercare(StareJoc *stare) {
     while (1) {
         int ch = getch();
 
-        // Dacă apasă Enter (cod ASCII 10 sau KEY_ENTER) [cite: 20]
+        // Dacă apasă Enter (cod ASCII 10 sau KEY_ENTER)
         if (ch == '\n' || ch == '\r' || ch == KEY_ENTER) {
             incercare_normalizata[lungime_curenta] = '\0';
 
@@ -104,7 +103,7 @@ void citeste_incercare(StareJoc *stare) {
                 evalueaza_culori(stare, incercare_normalizata);
                 break;
             } else {
-                // Redesenăm ecranul pentru a afișa eroarea [cite: 23, 34]
+                // Redesenăm ecranul pentru a afișa eroarea
                 curata_ecran();
                 afiseaza_grila(stare);
                 afiseaza_tastatura(stare);
