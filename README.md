@@ -6,7 +6,7 @@ Acest proiect reprezintă o implementare a popularului joc de cuvinte **Wordle**
 * **Interfață grafică în terminal:** Folosește `ncurses` pentru a desena o grilă de joc interactivă și colorată.
 * **Vocabular 100% Românesc:** Jocul utilizează un dicționar personalizat (`biblioteca.txt`) format din 1660 de cuvinte uzuale de fix 5 litere din limba română. 
 * **Normalizare:** Toate cuvintele sunt procesate folosind majuscule și fără diacritice, exact ca în jocul original.
-* **Control elegant:** Jocul procesează doar caracterele valide și permite părăsirea rapidă și curată a aplicației.
+* **Control :** Jocul procesează doar caracterele valide și permite părăsirea rapidă și curată a aplicației.
 
 ## Cerințe de sistem
 Pentru a putea compila și juca acest joc, sistemul tău (Linux / Ubuntu / VirtualBox) trebuie să aibă instalate următoarele pachete:
