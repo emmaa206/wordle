@@ -15,8 +15,8 @@ Pentru a putea compila și juca acest joc, sistemul tău (Linux / Ubuntu / Virtu
 * Biblioteca `ncurses`
 
 `ncurses` se poate instala rulând comanda:
-``bash
-`sudo apt-get install libncurses5-dev libncursesw5-dev`
+   ```bash
+   sudo apt-get install libncurses5-dev libncursesw5-dev
 
 ## Compilare și Rulare
 Proiectul folosește un `Makefile` pentru a automatiza procesul de compilare. 
