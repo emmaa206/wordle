@@ -32,7 +32,7 @@ Ai la dispoziție 6 încercări pentru a ghici cuvântul secret de 5 litere.
 După ce scrii un cuvânt și apeși tasta ENTER, culorile literelor se vor schimba pentru a-ți oferi indicii:
 🟢Verde: Litera se află în cuvântul secret și este pe poziția corectă.
 🟡Galben: Litera se află în cuvântul secret, dar este pe o poziție greșită.
-⚫Gri / Default: Litera nu se află deloc în cuvântul secret.
+⚫Gri: Litera nu se află deloc în cuvântul secret.
 
 ## Comenzi tastatură:
 [A - Z] : Introducerea literelor (sunt transformate automat în majuscule).
