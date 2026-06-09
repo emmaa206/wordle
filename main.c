@@ -13,7 +13,7 @@ int main() {
     keypad(stdscr, TRUE);  // Permitem taste speciale (Săgeți, Backspace, etc.)
     start_color();         // Activăm suportul de culori
 
-    // Definim perechi de culori (ID, Text, Fundal)
+    // Definim perechi de culori
     init_pair(1, COLOR_BLACK, COLOR_YELLOW); // Galben
     init_pair(2, COLOR_WHITE, COLOR_GREEN);  // Verde
     init_pair(3, COLOR_WHITE, 8);  // Gri
